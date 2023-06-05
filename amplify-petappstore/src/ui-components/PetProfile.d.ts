@@ -11,11 +11,16 @@ import { ButtonProps, FlexProps, ImageProps, TextProps } from "@aws-amplify/ui-r
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type PetProfileOverridesProps = {
     PetProfile?: PrimitiveOverrideProps<FlexProps>;
+    Button36552729?: PrimitiveOverrideProps<ButtonProps>;
     image?: PrimitiveOverrideProps<ImageProps>;
     Name?: PrimitiveOverrideProps<FlexProps>;
     "Melinda Marcus"?: PrimitiveOverrideProps<TextProps>;
-    "Design Engineer at Cloth Studios"?: PrimitiveOverrideProps<TextProps>;
-    Button?: PrimitiveOverrideProps<ButtonProps>;
+    Breed?: PrimitiveOverrideProps<TextProps>;
+    "About: Great Animal"?: PrimitiveOverrideProps<TextProps>;
+    "Age: 23"?: PrimitiveOverrideProps<TextProps>;
+    "Frame 418"?: PrimitiveOverrideProps<FlexProps>;
+    Button36552688?: PrimitiveOverrideProps<ButtonProps>;
+    Button36552724?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type PetProfileProps = React.PropsWithChildren<Partial<FlexProps> & {
     pet?: Pet;
